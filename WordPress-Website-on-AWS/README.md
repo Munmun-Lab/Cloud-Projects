@@ -2,7 +2,7 @@
 In this project, you'll learn how to host a WordPress website on AWS, using a hands-on approach. We'll cover essential AWS services, including VPC setup with public and private subnets, security groups, EC2 instances, NAT gateways, RDS, EFS, and Application Load Balancers. You'll also explore Route 53, Certificate Manager, and Auto Scaling groups. This practical experience is perfect for beginners, providing a foundational understanding of AWS website hosting.
 
 # Reference Architecture:
-[text](Image)
+CloudProject/WordPress-Website-on-AWS/Image/Host_a_WordPress_Website_on_AWS.gif
 
 # Course Curriculum:
 - Build a Three-Tier AWS Network VPC from Scratch
