@@ -1,7 +1,5 @@
 # AWS-Project-Ideas
 
-Here are a few AWS project ideas that you could work on over the weekend:
-
 1. Set up a static website using Amazon S3 and Amazon CloudFront. This project would involve creating an S3 bucket to host the website files and configuring CloudFront to distribute the website to visitors.
 
 2. Create a simple backend API using Amazon API Gateway and AWS Lambda. This project would involve creating an API endpoint using API Gateway and writing a Lambda function to handle the API requests.
