@@ -1,0 +1,13 @@
+# Ignore Terraform state files and backups
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore .terraform directory and lock file
+.terraform/
+.terraform.lock.hcl
+
+# Ignore environment variable files
+.env
+
+# Optional: Ignore other files you don't want in version control
+*.log
