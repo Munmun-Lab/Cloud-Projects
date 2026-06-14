@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nomadic Explorer</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') center/cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    background: rgba(0,0,0,0.7);
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    margin-top: 200px;
+}
+
+.hero h1 {
+    font-size: 60px;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 60px 10%;
+}
+
+.destinations {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 20px;
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,.2);
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card h3 {
+    padding: 15px;
+}
+
+.card p {
+    padding: 0 15px 15px;
+}
+
+.about {
+    background: #f4f4f4;
+}
+
+.contact {
+    text-align: center;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#destinations">Destinations</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<div class="hero">
+<h1>Nomadic Explorer</h1>
+<p>Travel the World Without Limits</p>
+<a href="#destinations" class="btn">Start Exploring</a>
+</div>
+</header>
+
+<section id="destinations">
+<h2 style="text-align:center;margin-bottom:30px;">Popular Destinations</h2>
+
+<div class="destinations">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da">
+<h3>India</h3>
+<p>Experience vibrant culture, heritage monuments, and diverse landscapes.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a">
+<h3>Netherlands</h3>
+<p>Explore canals, windmills, tulip fields, and modern cities.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf">
+<h3>Japan</h3>
+<p>Discover ancient traditions mixed with futuristic technology.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1527631746610-bca00a040d60">
+<h3>Switzerland</h3>
+<p>Enjoy breathtaking mountains, lakes, and scenic train journeys.</p>
+</div>
+
+</div>
+</section>
+
+<section id="about" class="about">
+<h2 style="text-align:center;margin-bottom:20px;">About Us</h2>
+
+<p>
+Nomadic Explorer is a travel platform built for adventurers who dream of
+exploring different countries, cultures, and experiences. We provide travel
+guides, destination recommendations, and inspiring stories from around the world.
+</p>
+</section>
+
+<section id="contact" class="contact">
+<h2>Contact Us</h2>
+<p>Email: info@nomadicexplorer.com</p>
+<p>Phone: +91 98765 43210</p>
+</section>
+
+<footer>
+<p>© 2026 Nomadic Explorer. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
